@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+.red {
+  border: 1px solid red;
+}
+.header {
+  height: 16rem;
+  background-color: #fffdfe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  width: 150px;
+}
+.header__logo-text {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #6a192d;
+}
+.section1 {
+  height: 32rem;
+  /* background-color: #feb9b2; */
+  background-image: url("./images/bg1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section1 > h1 {
+  font-size: 4rem;
+  color: #6a192d;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+.section1 > p {
+  color: #6a192d;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+.section2 {
+  padding: 4rem 2rem;
+}
+.section2 > h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+.section2__categories {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section2__category {
+  width: 300px;
+  height: 300px;
+  background-color: #feb9b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.section2__category > p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.section3 {
+  padding: 4rem 2rem;
+}
+.section3 > h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+.section3__categories {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.section3__category {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.section3__category > h4 {
+  font-size: 4rem;
+}
+.section3__category > p {
+  font-weight: 300;
+}
+.section3__category > h5 {
+  margin-top: 2rem;
+  font-weight: 500;
+}
+.footer {
+  height: 12rem;
+  background-color: #f6f6f6;
+}
+.chat {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #2ab939;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+}
