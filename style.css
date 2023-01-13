@@ -35,14 +35,14 @@
   align-items: center;
 }
 .section1 > h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #6a192d;
   font-weight: 300;
   margin-bottom: 4rem;
 }
 .section1 > p {
   color: #6a192d;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 300;
   margin-top: 1rem;
 }
